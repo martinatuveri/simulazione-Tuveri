@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { Movie } from './GetMovies';
 
-const baseURL = 'http://www.omdbapi.com/?s=bella&apikey=b1d05ad7';
+const baseURL = 'http://www.omdbapi.com/?s=wick&apikey=b1d05ad7';
 
 export const getDetailMovie = async (id: number): Promise<Movie | null> => {
   try {

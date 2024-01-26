@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = 'http://www.omdbapi.com/?s=bellaapikey=b1d05ad7';
+const baseURL = 'http://www.omdbapi.com/?s=wickapikey=b1d05ad7';
 
 export interface Movie {
   id: number;
